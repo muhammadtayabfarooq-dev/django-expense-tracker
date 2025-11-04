@@ -72,28 +72,6 @@ Now open your browser and visit:
 
 ---
 
-## Folder Structure
-
-```
-django-expense-tracker/
-│
-├── manage.py
-├── requirements.txt
-├── templates/
-├── static/
-├── expenses/             # Main app folder
-│   ├── models.py         # Expense model
-│   ├── views.py          # Core logic for expenses
-│   ├── urls.py           # URL routing
-│   ├── forms.py          # Expense creation form
-│   ├── templates/expenses/
-│   └── admin.py          # Django admin setup
-└── users/                # Authentication app
-    ├── models.py
-    ├── views.py
-    ├── forms.py
-    └── templates/users/
-```
 
 ---
 

@@ -1,59 +1,43 @@
-# Expense Tracker
+Django Expense Tracker
 
-<img src="accounts/static/images/expense_logo.png" alt="Expense Tracker" width="200px" height="200px"/>
+A simple and efficient Expense Tracker built with Python and Django, designed to help users record, manage, and analyze their daily expenses. This project demonstrates clean backend logic, authentication, and CRUD operations — perfect for learning and portfolio demonstration.
 
-Expense Manager is simple, stable and feature-rich web app that is designed for manage your daily bills.
+Features
 
-## Features
+User authentication (signup/login/logout)
 
-* Open Source
-* Powered by Django, Bootstrap
-* Filtering by name, price
-* Sorting by Date, Image Availability
-* Total Expense Monthly with budget feature
+Add, edit, and delete expenses
 
+Categorize transactions (e.g., food, bills, travel)
 
-## Table of Contents
-1. [ScreenShots](#screenshots)
-2. [Installation](#installation)
+View total and category-wise spending
 
-## Screenshots
+Responsive templates using Django’s template system
 
-![Login Page](docs/images/login.png "Login")
+Tech Stack
 
-![Register Page](docs/images/register.png "Register")
+Backend: Python, Django
 
-![Dashboard Page](docs/images/dashboard.png "Dashboard")
+Database: SQLite
 
-![Expense List Page](docs/images/all_expenses.png "Expense List")
+Tools: Git, GitHub, VS Code, Virtualenv
 
-## Installation
-
-1. [Python3](https://www.python.org/downloads/) required
-2. [Pipenv](https://docs.pipenv.org/) required
-```
-    pip3 install pipenv
-```
-3. Install all dependencies for this project
-```
-    pipenv install
-```
-4. add secrets.json
-``` 
-    cp docs/extras/secrets_example.json secrets.json
-```
-5. add local.py
-```
-    cp docs/extras/local_example.py website/settings/local.py
-```
-6. python manage.py createsuperuser
-7. login with admin credentials at
-```
- /admin/
- ```
-8. create group <strong>expense_manger</strong>
-9.  add permissions for expense_manger app
+Installation
+git clone https://github.com/muhammadtayabfarooq-dev/django-expense-tracker.git
+cd django-expense-tracker
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 
 
-## Suggestions
-Open to any suggestions and help provided.
+Then open:
+http://127.0.0.1:8000/
+
+About the Developer
+
+I’m a Python & Django Backend Developer focused on building REST APIs, backend systems, and scalable web apps.
+Open to remote backend roles and collaboration opportunities.
+
+📧 Email: muhammadtayabfarooq@gmail.com
+
+🌐 GitHub: github.com/muhammadtayabfarooq-dev
